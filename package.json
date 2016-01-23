@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "fs-extra": "^0.26.4",
+    "gm": "^1.21.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gore-eslint": "^1.4.4",
+    "gore-mocha": "^1.1.1",
+    "gulp": "^3.9.0",
+    "temp": "^0.8.3"
+  },
+  "description": "Generates mobile app icon sets.",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "eslint"
+  ],
+  "main": "index",
+  "name": "app-icon-generator",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mcharytoniuk/app-icon-generator.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "1.0.0"
+}
