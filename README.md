@@ -21,3 +21,12 @@ appIcongenerator(from, to);
 // that's all, now you have all possible icon sizes generated and imported
 // into the Xcode project
 ```
+
+## usage with gulp
+
+```JavaScript
+gulp.task('icons', function () {
+  // paths as above
+  return appIcongenerator(from, to);
+});
+```
